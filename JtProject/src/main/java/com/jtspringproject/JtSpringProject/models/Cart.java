@@ -13,7 +13,7 @@ public class Cart {
     private int id;
 
     @ManyToOne
-    @JoinColumn(name="customer_id1")
+    @JoinColumn(name="customer_id")
     private User customer;
 
 //    @ManyToMany
